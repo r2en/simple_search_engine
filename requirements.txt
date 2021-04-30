@@ -1,57 +1,52 @@
--i https://pypi.org/simple
-aiofiles==0.4.0
+-i https://pypi.org/simple/
+aiofiles==0.6.0
 aniso8601==7.0.0
-apispec==3.1.0
+apispec==4.4.0
 apistar==0.7.2
-boto3==1.10.26
-boto==2.49.0
-botocore==1.13.26
-certifi==2019.9.11
-chardet==3.0.4
-click==7.0
+certifi==2020.12.5
+chardet==4.0.0
+click==7.1.2
 docopt==0.6.2
-docutils==0.15.2
 gensim==3.8.1
 graphene==2.1.8
-graphql-core==2.2.1
-graphql-relay==2.0.0
-graphql-server-core==1.1.1
+graphql-core==2.3.2
+graphql-relay==2.0.1
+graphql-server-core==2.0.0
 h11==0.8.1
-httptools==0.0.13 ; sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'
-idna==2.8
+httptools==0.0.13
+idna==2.10
 itsdangerous==1.1.0
-jinja2==2.10.3
-jmespath==0.9.4
-joblib==0.14.0
+jinja2==2.11.3
+joblib==1.0.1
 markupsafe==1.1.1
-marshmallow==3.2.2
+marshmallow==3.11.1
 mecab-python3==0.996.2
 mypy-extensions==0.4.3
 mypy==0.740
 numpy==1.17.4
 pandas==0.25.3
-promise==2.2.1
-python-dateutil==2.8.0 ; python_version >= '2.7'
+promise==2.3
+python-dateutil==2.8.1
 python-multipart==0.0.5
-pytz==2019.3
-pyyaml==5.1.2
+pytz==2021.1
+pyyaml==5.4.1
 requests-toolbelt==0.9.1
-requests==2.22.0
+requests==2.25.1
 responder==2.0.4
-rfc3986==1.3.2
+rfc3986==1.4.0
 rx==1.6.1
-s3transfer==0.2.1
-scikit-learn==0.21.3
+scikit-learn==0.24.2
 scipy==1.3.2
-six==1.13.0
+six==1.15.0
 sklearn==0.0
-smart-open==1.9.0
+smart-open==5.0.0
 starlette==0.12.13
-typed-ast==1.4.0
+threadpoolctl==2.1.0
+typed-ast==1.4.3
 typesystem==0.2.4
-typing-extensions==3.7.4.1
-urllib3==1.25.7 ; python_version >= '3.4'
+typing-extensions==3.7.4.3
+urllib3==1.25.8
 uvicorn==0.8.6
-uvloop==0.12.2 ; sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'
+uvloop==0.12.2 ; sys_platform != 'win32' and sys_platform != 'cygwin' and sys_platform != 'cli'
 websockets==7.0
-whitenoise==4.1.4
+whitenoise==5.2.0
